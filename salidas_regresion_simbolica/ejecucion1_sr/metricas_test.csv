@@ -1,0 +1,2 @@
+MAE,RMSE,R2,MAPE_pct,bias_pred_minus_obs,residual_std,pearson_r,spearman_rho,positive_prediction_rate,MAE_bootstrap_95_low,MAE_bootstrap_95_high,selected_configuration,n_train,n_test
+628.8133569506215,893.5411034857625,0.9028695895805152,9.025380508246842,43.1335212075159,894.7058430320769,0.9519336248788396,0.9409656730323893,1.0,543.1228921521213,724.1086925926222,exploration,811,203

@@ -1,0 +1,42 @@
+{
+  "worksheet": "EJECUCION_1",
+  "cases": 1014,
+  "features": [
+    "ss_hw",
+    "a_R",
+    "Do_hw",
+    "hw_tw",
+    "n_perf"
+  ],
+  "target": "KF",
+  "KF_definition": "12*(1-nu^2)*FCR_24*hw/(pi^2*E*tw^3)",
+  "E_N_per_mm2": 210000.0,
+  "nu": 0.3,
+  "selected_configuration": "exploration",
+  "test_metrics": {
+    "MAE": 628.8133569506215,
+    "RMSE": 893.5411034857625,
+    "R2": 0.9028695895805152,
+    "MAPE_pct": 9.025380508246842,
+    "bias_pred_minus_obs": 43.1335212075159,
+    "residual_std": 894.7058430320769,
+    "pearson_r": 0.9519336248788396,
+    "spearman_rho": 0.9409656730323893,
+    "positive_prediction_rate": 1.0
+  },
+  "MAE_bootstrap_95_interval": [
+    543.1228921521213,
+    724.1086925926222
+  ],
+  "test_equation_sympy": "x1*(-51233.67*x2 + x4*(-2751.7168) + 41118.293) + x3/0.02252225",
+  "final_equation_sympy": "(85.58103 - (x2*82.61865 + x4**2))*(x1*303.91367 + x3)",
+  "final_equation_named": "(303.91367*A_R + HW_TW)*(-82.61865*DO_HW - N_PERF**2 + 85.58103)",
+  "feature_order_for_x_symbols": [
+    "SS_HW",
+    "A_R",
+    "DO_HW",
+    "HW_TW",
+    "N_PERF"
+  ],
+  "combinations_predicted": 1080
+}
